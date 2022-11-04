@@ -1,35 +1,33 @@
 <?php
-    // array of all the users
-    $user_data = [
-        "admin" => [
-            "password" => "admin",
-            "role" => "admin"
-        ],
-        "mario" =>   [
-            "password" => "sunnyday",
-            "role" => "user",
-            "credit_card" => "1234567890"
-        ],
-        "luigi" => [
-            "password" => "luigi123",
-            "role" => "user",
-            "credit_card" => "0987654321"
-        ]
+    // liste von vorlesungen mit schnitt
+    $vorlesungen = [
+        "SSE" => 1.0,
+        "WEB" => 2.1,
+        "DM" => 3.2,
+        "PR1" => 2.7,
+        "PR2" => 1.9,
+        "MA1" => 2.3,
+        "MA2" => 4.0,
     ];
 
-    $products = [
-        "Cheap SSRF Exploits" => 20,
-        "Expensive SSRF Exploits" => 100,
-        "RCE Exploits" => 23,
-        "XSS Exploits" => 65,
-        "SQLi Exploits" => 42,
-        "LFI Exploits" => 12,
-        "RFI Exploits" => 34,
-        "XXE Exploits" => 1337,
-        "Path Traversal Exploits" => 108,
-        "CRLF Exploits" => 12,
-        "Deserialization Exploits" => 34,
-        "PHP Object Injection Exploits" => 122
-
+    $noten = [
+        "123456" => [
+            "SSE" => 1.0,
+            "WEB" => 1.7,
+            "DM" => 2.6,
+            "PR1" => 1.5,
+            "PR2" => 2.2,
+            "MA1" => 1.7,
+            "MA2" =>3.2,
+        ],
+        "654321" => [
+            "SSE" => 2.0,
+            "WEB" => 2.7,
+            "DM" => 3.6,
+            "PR1" => 2.5,
+            "PR2" => 3.2,
+            "MA1" => 2.7,
+            "MA2" =>4.2,
+        ],
     ];
 ?>
