@@ -30,7 +30,7 @@
       Bonus (ohne SSRF):
       Schafft ihr es, die Noten von anderen Studenten abzufragen? (Hinweis: Unsere Uni ist klein und es gibt nur einen anderen Studenten mit der matrikelnr 654321)
       <br /><br />
-      Sendet Lösungen, Fragen oder Hinweise auf Störungen bitte an <a href="mailto:***REMOVED***">***REMOVED***</a>.
+      Sendet Lösungen, Fragen oder Hinweise auf Störungen bitte an MAIL.
 
     </div>
     <h2>Vorlesungen</h2>
